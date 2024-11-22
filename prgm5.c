@@ -11,14 +11,14 @@ void main()
         if(top==max-1)
         {
             printf("the stack is overflow");
+            break;
         }
         top++;
-        printf("\nenter the value of the array");
+        printf("\nenter the value of the array:");
         scanf("%d",&arr[top]);
         
     }
-
-    for(i=9;i>=0;i--)
+    for(i=top;i>=0;i--)
     {
         printf("\n%d\t",arr[i]);
     }
