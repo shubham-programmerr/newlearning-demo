@@ -1,3 +1,9 @@
+#include<stdio.h>
+#include<stdlib.h>
+struct node {
+	int data;
+	struct node * nest;
+};
 void create(struct node *head,int n);
 void display(struct node *head);
 
